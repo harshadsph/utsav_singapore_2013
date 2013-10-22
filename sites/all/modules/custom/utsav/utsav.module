@@ -1,0 +1,19 @@
+<?php
+
+/** [Henry suggested] Empty pages to fix problem of: Rotator content is shown in mobile/news and mobile/lifestyle sections - Ganesh 2013.07.08. **/
+function utsav_menu() {  
+ $items['homepage'] = array(
+    'title' => t('Utsav Home Page'),
+    'page callback' => 'empty_page',
+    'access arguments' => array('access content'),
+  );     
+  return $items;
+}
+
+function empty_page() {
+  return '';
+}
+
+
+
+
