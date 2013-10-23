@@ -1054,4 +1054,65 @@ div.node-gallery div.field-name-body{
 	
 }
 
+/*-------------------------	Video Gallery --------------------------*/
+
+
+div.view-video div.views-row {
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 2px solid #DADCDD;
+	background-color: #FEFAFB ;
+	width: 279px;
+	height: 120px;	
+	margin: 0 10px 10px 0;
+	float: left;
+}
+
+div.view-video div.views-field-field-video-embed div.field-content{
+	float: left;
+	margin-right: 10px;
+	margin: 5px 10px 0 5px;
+	position: relative;	
+}
+
+div.view-video div.views-field-field-video-embed img{
+	display: block;
+}
+
+div.view-video div.views-field-field-video-embed div.field-content:after {
+    background: url(../images/play.png);
+    width: 48px;
+    height: 48px;
+    display: block;
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+div.view-video div.views-field-title{
+	margin: 5px 0 0 0;
+	text-transform: uppercase;
+	font-family: 'lucida sans';
+    font-size: 13px;
+    font-weight: bold;  
+    margin: 7px 0 0;	
+}
+
+div.view-video div.views-field-title a {
+    color: #F70000 !important;
+}
+
+
+div.node-gallery div.field-name-title{
+	border-bottom: 2px solid;
+}
+div.node-gallery div.field-name-body{
+	margin: 10px 0;
+	text-align: justify;
+    width: 70%;
+	
+}
+
 
