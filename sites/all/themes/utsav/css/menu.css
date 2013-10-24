@@ -12,7 +12,7 @@
 	width: auto;
 	display: block;
 }
-#zone-menu .navigation {
+#zone-menu .utsav_menu {
 	margin-left: 12%;
 }
 #zone-menu li {
@@ -77,7 +77,6 @@
   padding: 0;
   width: 185px;
   position: absolute;
-  top: 40px;
   left: 0;
   background: url(../images/overlay.png) repeat-x 0 0;
   border: solid 1px #b4b4b4;
@@ -87,6 +86,7 @@
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  z-index: 1000 !important;
 }
 #zone-menu ul ul li {
   float: none;
@@ -110,3 +110,4 @@
 * html #zone-menu ul {
   height: 1%;
 }
+

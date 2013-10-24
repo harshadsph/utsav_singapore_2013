@@ -1115,4 +1115,88 @@ div.node-gallery div.field-name-body{
 	
 }
 
+/*-------------------------	Taxonomy Term View --------------------------*/
+h1.taxonomy-term-title{
+	width: 100%;
+	border-bottom: groove #DADCDD 5px;	
+}
+
+h1.taxonomy-term-title a{	
+	color: #F70000 !important;	
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+div.taxonomy-term-view-row{
+	margin: 10px 0 0 0 !important;
+	float: left;		
+	width: 55%;
+	height: 136px;	
+	margin: 0 0 10px 0;  
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: groove #FFEFEF 2px;
+	border-bottom: groove #DADCDD 2px;
+	background-color: #FFEFEF;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */	
+}
+
+div.taxonomy-term-view-row div.image{
+	float: left;
+	margin-right: 10px;
+	margin: 5px 10px 0 5px;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	background-color: #FFF;
+	padding: 10px;
+	border: 2px solid #DADCDD;
+}
+
+div.taxonomy-term-view-row div.image a:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+  border: 2px solid #DADCDD;
+}
+
+div.taxonomy-term-view-row div.image a {
+  -webkit-transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+}
+ 
+/* On hover, darken the shadows a bit */
+div.taxonomy-term-view-row div.image a{
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+
+div.taxonomy-term-view-row div.title{
+	margin: 5px 0 0 0;
+	text-transform: uppercase;
+	font-family: 'lucida sans';
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 7px 0 0;	
+}
+
+div.taxonomy-term-view-row div.title a{
+	color: #F70000 !important;
+}
+
+div.taxonomy-term-view-row div.desc{
+	margin: 2px 0 0 0;
+	font-size: 12px;
+	font-family: 'lucida sans';
+}
+
+div.taxonomy-term-view-row div.desc a{
+	color: #F70000 !important;
+	font-family: 'lucida sans';
+}
+
 
