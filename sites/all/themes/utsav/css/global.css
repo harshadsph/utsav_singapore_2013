@@ -1120,8 +1120,7 @@ div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-prev-ho
 	background-position: 0 0;
 }
 
-div.block-homepage-video-slider-block div.view-id-homepage_video_slider div.view-header p{
-	font-family: 'lucida sans';
+div.block-homepage-video-slider-block div.view-id-homepage_video_slider div.view-header p{	
 	background: #BB0000 !important;
 	padding: 0 0 2px 5px;
 	width: inherit;
@@ -1130,6 +1129,11 @@ div.block-homepage-video-slider-block div.view-id-homepage_video_slider div.view
 	-webkit-border-radius: 5px;
 	border: 1px solid #FF5353;
 	margin-bottom: 10px;	
+	
+}
+
+div.block-homepage-video-slider-block div.view-id-homepage_video_slider div.view-header p a{
+	font-family: 'lucida sans';
 	color: #FFF;
 	font-weight: bold;
 	text-transform: uppercase;	
