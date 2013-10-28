@@ -25,12 +25,12 @@ margin-right: 0 !important;
 }
 
 .section-header .zone-branding-wrapper, .section-content, .section-footer{
-	max-width: 980px;
+	max-width: 1000px;
 	margin: 0 auto !important;
 }
 
 .section-header .container-12{
-	margin: 5px 0 0 0 !important;	
+	margin: 5px 0 0 10px !important;	
 }
 
 .section-header .region-header-second{
@@ -45,7 +45,8 @@ margin-right: 0 !important;
 }
 
 .container-12 .grid-8 {
-width: auto !important;
+	width: 71% !important;
+	top: 48px;
 }
 
 .container-12 .grid-9 {
@@ -154,7 +155,10 @@ width: auto !important;
 
 /*-------------------------	Latest News Ticker --------------------------*/
 
-
+.liScroll-container {
+	width: auto;	
+	overflow: hidden;
+}
 
 .liScroll-container .mask {
 	top: 2px !important;
@@ -168,20 +172,17 @@ width: auto !important;
 	font-weight: bold;
 }
 
-.zone-header-wrapper{
+.view-home-page-latest-news-ticker{	
+	padding: 1px; 
+	float: left;	
 	background-color:#E9967A;
-	color: #FFF !important;
-	margin-top: -5px;
+	color: #FFF !important;	
 	height: 30px;
 	margin-bottom: 10px;
-}
-
-.view-home-page-latest-news-ticker{
-	margin-left: 12% !important;
-	padding: 1px; 
-	height: 20px !important;
-	float: left;
-	width: 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 ul.liScroll span {
@@ -871,7 +872,7 @@ ul.liScroll span {
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
 	border: 2px solid #DADCDD;
-	width: 650px;
+	width: 402px;
 }
 
 .container-12 .grid-6 {
@@ -1364,6 +1365,22 @@ div.view-taxonomy-term div.view-taxonomy-advertisement-slider-view div.view-head
 	border-style: solid;
 	border-color: #666 #666 transparent transparent;
 }
+
+/*-------------------------	HR --------------------------*/
+
+.zone-devider{
+	width: 100% !important;
+}
+
+hr {
+	height: 8px;
+	width: 100% !important;
+	background: teal;
+	border:0;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 23px;
+}
+
 
 
 

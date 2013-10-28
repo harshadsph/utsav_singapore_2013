@@ -1,6 +1,6 @@
-.zone-menu-wrapper{
+.utsav_menu{
 	margin: 0;
-	background: url(../images/overlay.png) repeat-x 0 -110px #f10189;
+	background: url(../images/overlay.png) repeat-x 0 -110px #890944;
 	line-height: 100%;
 	border-radius: 1em;
 	font: normal 0.5333333333333333em Arial, Helvetica, sans-serif;
@@ -8,22 +8,19 @@
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-	width: auto;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);	
 	display: block;
+	width: 718px;
 }
-#zone-menu .utsav_menu {
-	margin-left: 12%;
-}
-#zone-menu li {
+.utsav_menu li {
   margin: 0 5px;
   padding: 5px;
   float: left;
   position: relative;
-  list-style: none;  
+  list-style: none !important;  
 }
-#zone-menu a,
-#zone-menu a:link {
+.utsav_menu a,
+.utsav_menu a:link {
   font-weight: bold;
   font-size: 13px;
   color: #FFF;
@@ -36,12 +33,12 @@
   -moz-border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
-#zone-menu a:hover {
+.utsav_menu a:hover {
   background: #000;
   color: #fff;
 }
 
-#zone-menu li:hover > a {
+.utsav_menu li:hover > a {
   font-weight: normal;
   background: #9A0A4C url(../images/overlay.png) repeat-x 0 -40px !important;
   background: #666666 url(../images/overlay.png) repeat-x 0 -40px;
@@ -52,26 +49,26 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px 0 #ffffff;
 }
-#zone-menu ul ul li:hover a,
-#zone-menu li:hover li a {
+.utsav_menu ul ul li:hover a,
+.utsav_menu li:hover li a {
   background: none;
   border: none;
   color: #666;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
-#zone-menu ul ul a:hover {
-  background: #f10189 url(../images/overlay.png) repeat-x 0 -100px !important;
+.utsav_menu ul ul a:hover {
+  background: #890944 url(../images/overlay.png) repeat-x 0 -100px !important;
   color: #fff !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-#zone-menu li:hover > ul {
+.utsav_menu li:hover > ul {
   display: block;
 }
-#zone-menu ul ul {
+.utsav_menu ul ul {
   display: none;
   margin: 0;
   padding: 0;
@@ -88,18 +85,18 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   z-index: 1000 !important;
 }
-#zone-menu ul ul li {
+.utsav_menu ul ul li {
   float: none;
   margin: 0;
   padding: 3px;
   z-index: 1000;
 }
-#zone-menu ul ul a,
-#zone-menu ul ul a:link {
+.utsav_menu ul ul a,
+.utsav_menu ul ul a:link {
   font-weight: normal;
   font-size: 12px;
 }
-#zone-menu ul:after {
+.utsav_menu ul:after {
   content: '.';
   display: block;
   clear: both;
@@ -107,7 +104,7 @@
   line-height: 0;
   height: 0;
 }
-* html #zone-menu ul {
+* html .utsav_menu ul {
   height: 1%;
 }
 
