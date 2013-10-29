@@ -43,8 +43,8 @@ h1,h2,h3,h4,h5,h6{
 	padding-left: 0px !important;
 }
 
-.container-12 .grid-1 {
-	width: 0 !important;
+.page-homepage .container-12 .grid-1 {
+	width: 32% !important;
 }
 
 .page-homepage .zone-content-wrapper .container-12 .grid-8 {
@@ -149,6 +149,10 @@ h1,h2,h3,h4,h5,h6{
 
 /*-------------------------	Latest News Ticker --------------------------*/
 
+ul.liScroll{
+	width: 0px !important;
+}
+
 .liScroll-container {
 	width: auto;	
 	overflow: hidden;
@@ -177,6 +181,7 @@ h1,h2,h3,h4,h5,h6{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	width: 100%;
 }
 
 ul.liScroll span {
@@ -196,7 +201,7 @@ ul.liScroll span {
 	color: rgba(0,0,0,.8);
 	color: #001b25;
 	background: #00425a; 
-	padding: 3px;
+	padding: 5px;
 	position: relative;
 	border-radius: 4px;
 	font-size: 12px;
@@ -1067,7 +1072,7 @@ div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item-ho
 	margin: 0 !important;
 }
 
-div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item {
+div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item{
 	padding: 5px;
 	width: 100px;
 	height: auto !important;
@@ -1368,6 +1373,19 @@ hr {
 	border:0;
 	box-shadow: 10px 10px 5px #888888;
 	margin: 15px 0 20px 0;
+}
+
+/*-------------------------	Homepage video image slider --------------------------*/
+.homepage_image_video_slideshow_block{
+	width: 100% !important;
+	padding: 5px;
+	height: auto !important;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	list-style: none;
+	background: #fff none;
+	margin-right: 10px !important;
+
 }
 
 
