@@ -48,8 +48,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .page-homepage .zone-content-wrapper .container-12 .grid-8 {
-	width: 58%;
-	float: right;
+	width: auto;
+	float: left;
 }
 /*-------------------------	Header --------------------------*/
 
@@ -879,7 +879,6 @@ ul.liScroll span {
 }
 
 .homepage-gallery{
-	margin: 20px 10px 20px 0px;
 	float: left;
 }
 
@@ -937,7 +936,7 @@ div.homepage-gallery div.views-field-field-image div.field-content img{
 }
 
 .more-details{
-	margin: 0px 0px 10px 0px;
+	margin: 0px 10px 10px 0px;
 	float: left;
 
 }
