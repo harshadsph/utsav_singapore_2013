@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5,h6{
 	width: 100% !important;
 }
 
+.zone-content-wrapper{
+	margin: 0 0 15px 0;
+}
+
 .section-header .zone-branding-wrapper, .section-content, .section-footer{
 	max-width: 1050px;
 	margin: 0 auto !important;
@@ -47,8 +51,8 @@ h1,h2,h3,h4,h5,h6{
 	width: 32% !important;
 }
 
-.page-homepage .zone-content-wrapper .container-12 .grid-8 {
-	width: auto;
+.page-homepage .container-12 .grid-8 {
+	width: 62% !important;
 	float: left;
 }
 /*-------------------------	Header --------------------------*/
@@ -1017,7 +1021,7 @@ a:link, a:visited {
 	font-style: italic;     
 	text-shadow: 0 1px 0 #ECFBFF;     
 	background-image: linear-gradient(#CEF3FF, #B7EDFF); 
-	width: 220px;
+	width: 246px;
 	height: 103px;
 } 
 .testimonial:before, .testimonial:after {     
@@ -1063,7 +1067,7 @@ a:link, a:visited {
 	-webkit-border-radius: 5px; 
 	border: 2px solid #DADCDD;
 	background-color: #FEFAFB ;
-	width: 508px;
+	width: 96%;
 
 }
 
