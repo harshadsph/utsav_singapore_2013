@@ -1065,3 +1065,6 @@
 .camera_yellow_skin .camera_commands > .camera_stop {
 	background-position: -120px -1240px	;
 }
+.camera_emboss{
+	height: 368px !important;
+}

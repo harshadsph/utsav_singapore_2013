@@ -22,7 +22,7 @@
 .utsav_menu a:link {
   font-weight: bold;
   font-size: 13px;
-  color: #FFF;
+  color: #FFF !important;
   text-decoration: none;
   display: block;
   padding: 5px 10px;
