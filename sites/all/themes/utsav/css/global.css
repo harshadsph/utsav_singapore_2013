@@ -19,6 +19,10 @@ h1,h2,h3,h4,h5,h6{
 	color: #A60B57;
 }
 
+.zone-content-wrapper, .zone-postscript-wrapper{
+	margin: 0 0 20px 0 !important;
+}
+
 .container-12 {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
@@ -52,9 +56,19 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .page-homepage .container-12 .grid-8 {
+<<<<<<< HEAD
 	width: 62% !important;
+=======
+	width: 62%;
+>>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
 	float: left;
 }
+
+.region-postscript-second{
+	margin-left: 0px !important;
+}
+
+
 /*-------------------------	Header --------------------------*/
 
 .header{
@@ -877,8 +891,7 @@ ul.liScroll span {
 	width: 402px;
 }
 
-.homepage-events{
-	margin: 20px 10px 20px 0px;
+.homepage-events{	
 	float: left;
 }
 
@@ -939,30 +952,80 @@ div.homepage-gallery div.views-field-field-image div.field-content img{
 	z-index: 1;
 }
 
-.more-details{
-	margin: 0px 10px 10px 0px;
+.more-details, .utsav_artists, .past-events, .gallery,.sponsorship{
+	margin: 0 10px 0 0;
 	float: left;
 
 }
 
-.more-details .view-home-page-more-detail-block .views-row{
+.sponsorship{
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 2px solid #DADCDD;
+	border: 1px solid #DADCDD;
+	background-color: #FEFAFB ;	
+	width: 97%;
+}
+
+.sponsorship .view-sponsorship .view-header{
+	background-color: #1B9BA1;
+	color: #FFF;
+	font-family: 'lucida sans';
+	padding: 0 0 2px 5px;
+	width: inherit;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #1B9BA1;
+	margin-bottom: 2px;
+	letter-spacing: 0.5px;	
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.sponsorship .jcarousel-skin-default .jcarousel-container-horizontal{
+	width: auto !important;
+}
+
+.sponsorship .jcarousel-skin-default .jcarousel-clip-horizontal{
+	width: auto !important;
+}
+
+.sponsorship .title{
+	background-color: #D7BBC7;
+}
+
+.sponsorship .title a{
+	letter-spacing: 0.5px;	
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	font-family: 'lucida sans';	
+	color: #000;
+	font-weight: bold;
+	
+}
+
+.more-details .view-home-page-more-detail-block .views-row,
+.utsav_artists .view-utsav-artists .views-row,
+.past-events .view-past-events .views-row,
+.gallery .view-gallery .views-row{
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #DADCDD;
 	background-color: #FEFAFB ;
 	width: 310px;
-	height: 150px;	
+	height: 140px;	
 	margin: 0 0 10px 0;  		
 }
 
-.more-details .more-detail-image{
+.more-details .more-detail-image, .utsav_artists .more-detail-image, .past-events .more-detail-image, .gallery .more-detail-image{
 	float: left;
 	margin-right: 10px;
 	margin: 5px 10px 0 5px;
 }
 
-.more-details .more-detail-title{
+.more-details .more-detail-title, .utsav_artists .more-detail-title, .past-events .more-detail-title, .gallery .more-detail-title{
 	margin: 5px 0 0 0;
 	text-transform: uppercase;
 	font-family: 'lucida sans';
@@ -972,17 +1035,17 @@ div.homepage-gallery div.views-field-field-image div.field-content img{
     margin: 7px 0 0;	
 }
 
-.more-details .more-detail-title a{
+.more-details .more-detail-title a, .utsav_artists .more-detail-title a, .past-events .more-detail-title a, .gallery .more-detail-title a{
 	color: #F70000 !important;
 }
-.more-details .more-detail-desc{
+.more-details .more-detail-desc, .utsav_artists .more-detail-desc, .past-events .more-detail-desc, .gallery .more-detail-desc{
 	margin: 2px 0 0 0;
 	font-size: 12px;
 	font-family: 'lucida sans';
 	
 }
 
-.more-details .more-detail-desc-header{	
+.more-details .more-detail-desc-header, .utsav_artists .more-detail-desc-header, .past-events .more-detail-desc-header, .gallery .more-detail-desc-header{	
 	font-family: 'lucida sans';
 	background: #FF5353 !important ;
 	padding: 0 0 2px 5px;
@@ -994,7 +1057,24 @@ div.homepage-gallery div.views-field-field-image div.field-content img{
 	margin-bottom: 2px;
 	float: right;
 	color: #FFF;
-	font-weight: bold;
+	letter-spacing: 0.5px;	
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.utsav_artists .more-detail-desc-header{	
+	background: #2C4A93 !important ;
+	border: 1px solid #2C4A93;
+}
+
+.past-events .more-detail-desc-header{	
+	background: #A20A55 !important ;
+	border: 1px solid #A20A55;
+}
+
+.gallery .more-detail-desc-header{	
+	background: #71C045 !important ;
+	border: 1px solid #71C045;	
 }
 
 a:link, a:visited {
@@ -1006,7 +1086,7 @@ a:link, a:visited {
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 2px solid #DADCDD;
+	border: groove #FFEFEF 2px;
 	background-color: #FEFAFB ;
 }
 
@@ -1021,7 +1101,11 @@ a:link, a:visited {
 	font-style: italic;     
 	text-shadow: 0 1px 0 #ECFBFF;     
 	background-image: linear-gradient(#CEF3FF, #B7EDFF); 
+<<<<<<< HEAD
 	width: 246px;
+=======
+	width: 244px;
+>>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
 	height: 103px;
 } 
 .testimonial:before, .testimonial:after {     
@@ -1065,9 +1149,13 @@ a:link, a:visited {
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 2px solid #DADCDD;
+	border: groove #FFEFEF 2px;
 	background-color: #FEFAFB ;
+<<<<<<< HEAD
 	width: 96%;
+=======
+	width: 97%;
+>>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
 
 }
 
@@ -1086,12 +1174,19 @@ div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item{
 	margin-right: 10px !important;
 }
 
+
+
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-container-horizontal {
 	padding: 16px 20px;
 	margin: auto;
 }
+
+div.jcarousel-skin-default .jcarousel-container-horizontal{
+	width: 98% !important;
+}
+
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-clip-horizontal {
-	width: 452px;
+	width: 93% !important;
 }
 
 div.block-homepage-video-slider-block div.video:after {
@@ -1107,7 +1202,7 @@ div.block-homepage-video-slider-block div.video:after {
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
 	position: absolute;
 	top: 55px;
-	right: -26px;
+	right: 22px;
 	background-position: 0 -37px;
 }
 
@@ -1388,13 +1483,62 @@ hr {
 	list-style: none;
 	background: #fff none;
 	margin-right: 10px !important; 
+	height: 462px !important;
 
 }
 
+/*-------------------------	Utsav Facebook --------------------------*/
+.utsav-facebook{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: groove #FFEFEF 2px;
+	background-color: #FFF;	
+	
+}
 
-
-
-
-
-
-
+/*-------------------------	Floating footer --------------------------*/
+.float-footer {
+	-moz-box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	-webkit-box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:27px;
+	-moz-border-radius-topright:27px;
+	border-top-right-radius:27px;
+	-webkit-border-bottom-right-radius:27px;
+	-moz-border-radius-bottomright:27px;
+	border-bottom-right-radius:27px;
+	-webkit-border-bottom-left-radius:27px;
+	-moz-border-radius-bottomleft:27px;
+	border-bottom-left-radius:27px;
+	text-indent:3.98px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:87px;
+	line-height:87px;
+	width:199px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-9px 50px 21px #cc9f52;
+}
+.float-footer:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.float-footer:active {
+	position:relative;
+	top:1px;
+}

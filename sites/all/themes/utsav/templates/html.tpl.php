@@ -20,5 +20,15 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  
+  <!-- the following div added for book event button floating in footer  -->
+  <div id="floatdiv" style="  
+    position:absolute;  
+    width:180px;height:50px;bottom:10px;left:10px;  
+    padding:16px;  
+    z-index:100">  
+	<a href="#" class="float-footer">Book Your Tickets Now !!!</a>
+	</div> 	
+	<!-- End- the following div added for book event button floating in footer  -->
 </body>
 </html>

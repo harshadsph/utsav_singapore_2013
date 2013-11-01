@@ -52,7 +52,7 @@
 .utsav_menu li:hover li a {
   background: none;
   border: none;
-  color: #666;
+  color: #666 !important;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
