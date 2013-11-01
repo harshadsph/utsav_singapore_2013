@@ -1078,7 +1078,7 @@ a:link, a:visited {
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 2px solid #DADCDD;
+	border: groove #FFEFEF 2px;
 	background-color: #FEFAFB ;
 }
 
@@ -1137,7 +1137,7 @@ a:link, a:visited {
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px; 
-	border: 2px solid #DADCDD;
+	border: groove #FFEFEF 2px;
 	background-color: #FEFAFB ;
 	width: 97%;
 
@@ -1158,12 +1158,19 @@ div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item{
 	margin-right: 10px !important;
 }
 
+
+
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-container-horizontal {
 	padding: 16px 20px;
 	margin: auto;
 }
+
+div.jcarousel-skin-default .jcarousel-container-horizontal{
+	width: 98% !important;
+}
+
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-clip-horizontal {
-	/*width: 452px;*/
+	width: 93% !important;
 }
 
 div.block-homepage-video-slider-block div.video:after {
@@ -1179,7 +1186,7 @@ div.block-homepage-video-slider-block div.video:after {
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-next-horizontal {
 	position: absolute;
 	top: 55px;
-	right: -26px;
+	right: 22px;
 	background-position: 0 -37px;
 }
 
@@ -1464,10 +1471,58 @@ hr {
 
 }
 
+/*-------------------------	Utsav Facebook --------------------------*/
+.utsav-facebook{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: groove #FFEFEF 2px;
+	background-color: #FFF;	
+	
+}
 
-
-
-
-
-
-
+/*-------------------------	Floating footer --------------------------*/
+.float-footer {
+	-moz-box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	-webkit-box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	box-shadow:inset 0px -1px 19px -50px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:27px;
+	-moz-border-radius-topright:27px;
+	border-top-right-radius:27px;
+	-webkit-border-bottom-right-radius:27px;
+	-moz-border-radius-bottomright:27px;
+	border-bottom-right-radius:27px;
+	-webkit-border-bottom-left-radius:27px;
+	-moz-border-radius-bottomleft:27px;
+	border-bottom-left-radius:27px;
+	text-indent:3.98px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:87px;
+	line-height:87px;
+	width:199px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-9px 50px 21px #cc9f52;
+}
+.float-footer:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.float-footer:active {
+	position:relative;
+	top:1px;
+}
