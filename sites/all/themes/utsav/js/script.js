@@ -44,7 +44,7 @@ Drupal.behaviors.homepage_floating_footer = {
 				// border depending upon property used. Only one should be  
 				// specified.  
 				//targetTop: 10,  
-				targetBottom: 410,  
+				targetBottom: 230,  
 	  
 				// Uncomment one of those if you need centering on  
 				// X- or Y- axis.  

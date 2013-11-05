@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{
 	width: auto !important;
 }
 
-.zone-branding-wrapper .container-12 .grid-8 {
+.page-homepage .zone-branding-wrapper .container-12 .grid-8 {
 	width: 75% !important;
 	top: 45px;
 }
@@ -56,11 +56,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .page-homepage .container-12 .grid-8 {
-<<<<<<< HEAD
 	width: 62% !important;
-=======
-	width: 62%;
->>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
 	float: left;
 }
 
@@ -1101,11 +1097,7 @@ a:link, a:visited {
 	font-style: italic;     
 	text-shadow: 0 1px 0 #ECFBFF;     
 	background-image: linear-gradient(#CEF3FF, #B7EDFF); 
-<<<<<<< HEAD
-	width: 246px;
-=======
 	width: 244px;
->>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
 	height: 103px;
 } 
 .testimonial:before, .testimonial:after {     
@@ -1151,12 +1143,7 @@ a:link, a:visited {
 	-webkit-border-radius: 5px; 
 	border: groove #FFEFEF 2px;
 	background-color: #FEFAFB ;
-<<<<<<< HEAD
-	width: 96%;
-=======
 	width: 97%;
->>>>>>> e60aba3ddf1f48f9d3fb37cc787a047ea71f98fd
-
 }
 
 div.block-homepage-video-slider-block .jcarousel-skin-default .jcarousel-item-horizontal {
@@ -1532,6 +1519,8 @@ hr {
 	text-decoration:none;
 	text-align:center;
 	text-shadow:-9px 50px 21px #cc9f52;
+	opacity: 0.8;
+	filter: alpha(opacity=80);	
 }
 .float-footer:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
@@ -1541,4 +1530,55 @@ hr {
 }.float-footer:active {
 	position:relative;
 	top:1px;
+}
+
+/*-------------------------	Homepage contact us --------------------------*/
+.homepage_contact_us{
+	width: 100% !important;	
+	height: auto !important;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	list-style: none;
+	background: #fff none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.homepage_contact_us div.view-homepage-contact-form div.view-header{
+	padding: 2px 2px 2px 2px !important;
+}
+
+div.homepage_contact_us div.view-homepage-contact-form div.view-content{
+	padding: 0 15px 15px 15px !important;
+}
+
+div.homepage_contact_us div.view-homepage-contact-form div.view-header p{	
+	background: #890944 !important;
+	padding: 5px;
+	width: inherit;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #FF5353;
+	margin-bottom: 10px;	
+	font-family: 'lucida sans';
+	font-weight: bold;
+	color: #FFF;
+	letter-spacing: 0.5px;	
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);	
+	
+}
+
+div.homepage_contact_us div.view-homepage-contact-form div.view-content span{
+	text-transform: uppercase;
+	text-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.5);	
+	font-family: 'lucida sans';
+	font-weight: bold;
+}
+
+div.zone-content-bottom div.region-content-bottom-right{
+	float: right;
+	margin-right: 50px;
 }
