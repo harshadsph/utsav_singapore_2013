@@ -1481,6 +1481,7 @@ hr {
 	-webkit-border-radius: 5px;
 	border: groove #FFEFEF 2px;
 	background-color: #FFF;	
+	height: 448px !important;
 	
 }
 
@@ -1543,6 +1544,7 @@ hr {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	height: 448px !important;
 }
 
 div.homepage_contact_us div.view-homepage-contact-form div.view-header{
@@ -1581,4 +1583,44 @@ div.homepage_contact_us div.view-homepage-contact-form div.view-content span{
 div.zone-content-bottom div.region-content-bottom-right{
 	float: right;
 	margin-right: 50px;
+}
+
+/*-------------------------	Homepage About us --------------------------*/
+div.zone-content-bottom div.region-content-bottom-center{
+	width: 35% !important;
+	margin: 0;	
+}
+
+section.homepage_about_us{
+	height: auto !important;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	list-style: none;
+	background: #fff none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 448px !important;
+}
+
+section.homepage_about_us h2{
+	background: #71C045 !important;
+	padding: 5px;
+	width: inherit;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #71C045;
+	margin: 2px !important;	
+	font-family: 'lucida sans';
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 0.5px;	
+	text-transform: uppercase;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);	
+}
+
+section.homepage_about_us .content{
+	margin: 10px;
 }
