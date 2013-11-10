@@ -1635,5 +1635,75 @@ div.view-taxonomy-term div.view-taxonomy-advertisement-slider-view div.view-head
 	border-color: #666 #666 transparent transparent;
 }
 
+/*-------------------------	Article Pages --------------------------*/
+.node-type-article .zone-content-wrapper .region-sidebar{
+	display: none;
+}
 
+.node-type-article .zone-content-wrapper .region-content{
+	width: 100%;
+}
 
+.node-type-article .zone-content-wrapper .region-content div.block-main{
+	width: 77%;
+	float:left;
+	border: 1px solid #DDD;
+	padding: 0 0 20px 20px;
+	background: #FFF none;
+}
+.node-type-article .zone-content-wrapper .region-content  .block-block-10{
+	width: 20%;
+	float:right;
+}
+
+.node-type-article .zone-content-wrapper .region-content  .block-block-10 img{
+	opacity: 0.7;
+	filter: alpha(opacity=70);	
+}
+
+.node-type-article .zone-content-wrapper .region-content h2 {
+	margin: 10px 10px 10px 0 !important;
+	font-size: 30px;
+	line-height: 1.1em;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-weight: normal;
+	margin: 0;
+	text-shadow: 0 3px 7px rgba(0, 0, 0, 31.5);
+	border-bottom: 5px solid #E9967A !important;
+	-webkit-box-shadow: 0 3px 7px #888888;
+	-moz-box-shadow: 0 3px 7px #888888;
+	box-shadow: 0 3px 7px #888888;
+	padding: 0 0 0 10px;
+}
+
+.node-type-article .zone-content-wrapper .region-content .block-main .field-type-image{
+	width: 49.5% !important;
+	padding: 5px;
+	height: auto !important;
+	overflow: hidden;
+	border: 1px groove #d8d8d8;
+	background: #FFF none;
+	margin-right: 10px !important;
+	float: left;
+}
+
+.node-type-article .zone-content-wrapper .region-content .block-main .field-type-text-with-summary{
+	width: 45% !important;
+	padding: 0 10px;
+	height: auto !important;
+	float: left;
+}
+
+.node-type-article .zone-content-wrapper .region-content .block-main .field-type-text-with-summary p{
+	font: 13px/1.5 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+.node-type-article .zone-content-wrapper .region-content .block-main .field-type-fivestar{
+	width: 40%;
+	float: left;
+	height: 60px;
+	top: 454px;
+	position: absolute;
+}
