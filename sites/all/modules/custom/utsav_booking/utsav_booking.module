@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * Implements hook_permission().
+ *
+ * @return Assoc
+ *   permission items.
+ */
+function utsav_booking_permission() {
+  return array(
+    'administer utsav_booking' => array(
+      'title' => t("Administer utsav booking"),
+      'description' => t('Perform administration tasks for the module utsav booking.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ *
+ * @return Assoc
+ *   menu items.
+ */
+function utsav_booking_menu() {
+  $items = array();
+  $items['admin/config/user-interface/utsav_booking'] = array(
+    'title' => 'Utsav Booking',
+    'description' => "Controls settings for the module utsav booking",
+    'file' => 'includes/utsav_booking.admin.inc',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('utsav_booking_admin_configure'),
+    'access arguments' => array('administer utsav_booking'),
+  );
+  return $items;
+}
+
+
+
