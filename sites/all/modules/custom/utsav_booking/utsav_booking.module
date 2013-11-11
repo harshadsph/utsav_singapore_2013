@@ -34,5 +34,41 @@ function utsav_booking_menu() {
   return $items;
 }
 
+/**
+ * Implements hook_block_info().
+ *
+ * @return Assoc
+ *   the blocks' info.
+ */
+function utsav_booking_block_info() {
+  $block = array();
+  $block['utsav_booking'] = array(
+    'info' => t('Utsav Booking'),
+    'cache' => DRUPAL_CACHE_PER_PAGE,
+  );
+  return $block;
+}
+
+/**
+ * Implements hook_block_view().
+ *
+ * @param string $delta
+ *   the identifier of the requested block.
+ *
+ * @return Assoc
+ *   the requested block's view.
+ */
+function utsav_booking_block_view($delta = NULL) {
+  $block = array();
+  switch ($delta) {
+    case 'utsav_booking':
+      require_once 'includes/utsav_booking.blocks.inc';
+      $block['subject'] = NULL;
+      $block['content'] = _utsav_booking_block();
+      break;
+  }
+  return $block;
+}
+
 
 
