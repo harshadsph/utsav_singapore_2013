@@ -1707,3 +1707,63 @@ div.view-taxonomy-term div.view-taxonomy-advertisement-slider-view div.view-head
 	top: 454px;
 	position: absolute;
 }
+
+/*------------------------- Event Booking  --------------------------*/
+body.page-booking .container-12 .grid-8{
+	width: 98%;
+}
+
+table.booking-table{
+	width: 80%;	
+	margin: 0 auto;
+	border-collapse:separate;
+	border-spacing: 0.5rem;
+}
+
+table.booking-table td{
+	background-color: #FFF !important;	
+	padding:5px;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px groove #888888;
+	-webkit-box-shadow: 0 8px 7px #888888;
+	-moz-box-shadow: 0 8px 7px #888888;
+	box-shadow: 0 8px 7px #888888;
+	font-weight: bold;
+}
+
+table.booking-table td:hover{
+	background:#eee; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
