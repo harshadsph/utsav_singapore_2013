@@ -27,7 +27,7 @@
     width:180px;height:50px;bottom:10px;left:10px;  
     padding:16px;  
     z-index:100">  
-	<a href="#" class="float-footer">Book Your Tickets Now !!!</a>
+	<a href="booking/2013-12-30%2022:00:00" class="float-footer">Book Your Tickets Now !!!</a>
 	</div> 	
 	<!-- End- the following div added for book event button floating in footer  -->
 </body>
