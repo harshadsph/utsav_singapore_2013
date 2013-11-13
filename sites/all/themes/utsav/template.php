@@ -12,6 +12,10 @@
  */
  
  function utsav_preprocess_page(&$variables) {
+ 
+	$event_booking = "event_booking";
+ 
+ 
   // Get the entire main menu tree
   $main_menu_tree = menu_tree_all_data('main-menu');
   
@@ -28,5 +32,10 @@
 		drupal_add_js("$theme_path/js/jquery.easing.1.3.js");
 		drupal_add_js("$theme_path/js/camera.min.js");
   }
+ 
+ //Load the javascript if booking page is encounter 
+ if (arg(0) == "booking") {
+	drupal_add_js("$theme_path/js/booking.js");
+ }
   
 }

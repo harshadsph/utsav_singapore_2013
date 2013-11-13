@@ -1735,7 +1735,15 @@ table.booking-table td{
 }
 
 table.booking-table td:hover{
-	background:#eee; 
+	color           : #ffffff;
+    background-color: #77C144 !important;
+	cursor			: pointer !important;
+	-webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+	box-shadow: 0 8px 7px #888888;
 }
 
 
