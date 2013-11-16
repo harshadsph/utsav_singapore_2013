@@ -14,8 +14,7 @@
  function utsav_preprocess_page(&$variables) {
  
 	$event_booking = "event_booking";
- 
- 
+  
   // Get the entire main menu tree
   $main_menu_tree = menu_tree_all_data('main-menu');
   
